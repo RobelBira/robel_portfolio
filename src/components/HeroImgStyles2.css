@@ -1,0 +1,46 @@
+.hero-img{
+    width: 100%;
+    background: 0,0,0,0.5;
+    height: 60vh;
+    position: relative;
+}
+.hero-img::before{
+    content: "";
+background: url("https://media.istockphoto.com/id/1401980646/de/foto/3d-gerenderte-klassische-skulptur-metaverse-avatar-mit-netzwerk-von-low-poly-leuchtenden.jpg?s=612x612&w=is&k=20&c=7ENT2kEUbBZ6KzRbDzyQ1kI1ZAe_tuJ1Vq5BQp8G6CU=");
+    background-size: cover;
+background-position: center top;
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+
+}
+
+
+.heading{
+    width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.hero-img h1{
+    font-size: 4rem;
+    color: rgb(209, 245, 80);
+}
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width:640px){
+    .hero-img h1{
+        font-size: 4rem;
+    }
+   
+
+}
